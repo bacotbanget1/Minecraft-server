@@ -1,0 +1,61 @@
+# ── Admin & Credentials ─────────────────────────────────────
+admin.json
+*.json
+
+# ── Server Data & Runtime ────────────────────────────────────
+server_data/
+*.pid
+*.log
+server.conf
+
+# ── NZCloud File Manager Lock ────────────────────────────────
+.nzcloud_fm_lock
+
+# ── Java / Minecraft ─────────────────────────────────────────
+*.jar
+eula.txt
+crash-reports/
+logs/
+world/
+world_nether/
+world_the_end/
+plugins/
+config/
+ops.json
+whitelist.json
+banned-players.json
+banned-ips.json
+usercache.json
+permissions.yml
+bukkit.yml
+spigot.yml
+paper.yml
+paper-global.yml
+paper-world-defaults.yml
+
+# ── Bedrock ──────────────────────────────────────────────────
+bedrock-server-*.zip
+bedrock_server
+*.mcworld
+*.mcpack
+permissions.json
+allowlist.json
+valid_known_packs.json
+server.properties
+
+# ── OS ───────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDE ──────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ── Temp ─────────────────────────────────────────────────────
+*.tmp
+*.bak
+__pycache__/
